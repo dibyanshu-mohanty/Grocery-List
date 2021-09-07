@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+.card{
+   background-color: white; 
+   height: 40rem;
+   width: 25rem;
+   margin-top: 6rem;
+   padding: 40px;
+   overflow-y: scroll;
+
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+#item{
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+input:focus{
+    outline: none;
+}
+@media only screen and (max-width:575px) {
+    .card{
+        width: 20rem;
+    }
+}

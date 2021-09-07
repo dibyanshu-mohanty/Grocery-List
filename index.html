@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="icon" href="images/GroceryList.jpg">
+    <script src="https://kit.fontawesome.com/6de3383711.js" crossorigin="anonymous"></script>
+    <title>Grocery List</title>
+</head>
+
+<body style="background-image: url('images/grocery.jpg');">
+    <div class="container">
+        <div class="col">
+            <div class="card ml-auto mr-auto">
+                <div id="grocery">
+                    <h3 style="text-align: center;padding-top: 20px;">GROCERY LIST</h3>
+                    <hr>
+                    <div class="row">
+                        <input type="text" placeholder="New Item.." id="Item">
+                        <button id="addItem" class="btn btn-outline-dark ml-auto"><i class="fas fa-plus"></i></button>
+                        <button id="clearList" class=" btn btn-outline-dark ml-auto"><i class="fas fa-sync-alt"></i></button>
+                    </div>
+                </div>
+                <div id="groceryList"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

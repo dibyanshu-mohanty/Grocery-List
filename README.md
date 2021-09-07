@@ -1,2 +1,2 @@
 # Grocery-List
-JavaScript Projects 6/15
+Project 6 of 15 Days , 15 JS Projects
